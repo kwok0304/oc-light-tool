@@ -1,0 +1,23 @@
+{
+  "name": "oc-light-tool-installer",
+  "version": "1.0.0",
+  "description": "OC灯光工具：Cinema 4D 2026 + Octane 灯光管理器及零依赖安装器",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "oc-light-tool": "bin/oc-light-tool.js"
+  },
+  "files": [
+    "bin",
+    "plugin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check bin/oc-light-tool.js",
+    "status": "node bin/oc-light-tool.js status"
+  }
+}
