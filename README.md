@@ -41,6 +41,3 @@ npx --yes github:kwok0304/oc-light-tool uninstall
 
 插件不会自动注册快捷键，以免覆盖用户现有配置。可在 C4D 命令管理器搜索“OC灯光工具”并自行分配。
 
-## 发布前注意
-
-当前插件命令 ID 是开发阶段占位值。公开分发前应向 Plugin Café 申请正式唯一 ID，并替换 `OctaneLightSolo.pyp` 中的 `PLUGIN_BASE`。
